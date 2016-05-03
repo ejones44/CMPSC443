@@ -1,0 +1,39 @@
+//sample 2
+//JScrambler 
+
+
+(function(J) {
+    function X() {
+        $("#draw_time")[q0 + K + d0 + h0](A0++);
+        A[U0](A0, 30) && stopAnim();
+    }
+    function o0() {
+        var d = f0 + S + n.h5 + n.c5 + Y + B + n.I0 + l0 + C0 + c0 + n.z7 + n.h5, e = A.q.q("bdd") ? "Y" : n.U7 + l0 + n.h5 + n.h5 + n.z7 + n.I0 + n.k5, f = n.l7 + n.z7 + n.o7 + n.z8 + n.l7 + n.k5, i = A.q.q(c0 + n.U7) ? 188 : "offset", j = Y + n.o7 + S + n.k5 + n.l7, k = A.q.q(Q + S + b0) ? "cssWidth" : "drawImage";
+        K0[n.U7 + n.v6 + n.z7 + n.c5 + n.h5 + P + n.z7 + n.U7 + n.k5](p0, p0, i0[x + a0 + x0 + K + q0], i0["he" + a0 + g0 + q0 + K]);
+        K0[k](s0, v0, w0);
+        v0 += A.U(T, z0);
+        w0 += A[w](T, y0);
+        A[T0](v0, i0[j] - i) ? (k = A.q.q(n.U7 + e0 + E + E) ? "changeData" : function() {
+            z0 = -T;
+        }, v0 = A[O](i0[j], i), k()) : A[P0](v0, p0) && (i = A.q.q(n.c5 + F + n.z7) ? function(c) {
+            z0 = c;
+        } : "\u00a0", v0 = p0, i(T));
+        A[N](w0, i0[f] - 48) ? (w0 = A[Z](i0[q0 + M + a0 + g0 + q0 + K], 48), y0 = A.q.q(S + c0 + n.c5) ? "
+" : -T) : A[e + H0](w0, p0) && (e = A.q.q("63") ? function(c) {
+            y0 = A.q.q(S + b0 + Q + n.U7) ? n.U7 + n.l7 + n.c5 + n.h5 + n.P7 + n.z7 + n.k5 : c;
+        } : "image", w0 = p0, e(T));
+        $(d)[q0 + K + d0 + h0](V0++);
+    }
+    var n = {P7: "s", h6: "e", o5: "c", S5: 1, f5: "s", Q5: "2", z7: "e", m8: "o", h5: "r", l5: "o", U7: "c", l7: "h", I0: "n", Y7: "a", k5: "t", z8: "g", F0: "A", Q8: "v", W7: "i", d5: 16, A5: null, v6: "l", p8: "split", o7: "i", A6: "r", j5: "j", g5: 0, c5: "a", p5: "n"}, A = {D: function(c, d) {
+            return c - d;
+        }, a: function(c, d) {
+            return c >= d;
+        }, c4: function(c, d) {
+            return c === d;
+        }, l: function(c, d) {
+            return c / d;
+        }, p: function(c, d) {
+            return c > d;
+        },
+
+// This has these obfuscation techniques in them comment removal, dot notation, replace names, string splitting...

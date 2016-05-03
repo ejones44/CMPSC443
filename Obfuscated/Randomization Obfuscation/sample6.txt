@@ -1,0 +1,6 @@
+//sample 6 
+//yui compressor http://refresh-sf.com/
+
+
+!function(e){function n(){var n=60;d=e.setInterval(t,1e3),m=e.document.getElementById("canvas"),u=m.getContext("2d"),v=-1!=e.navigator.userAgent.indexOf("Firefox")?e.setInterval(function(){e.mozRequestAnimationFrame(a)},1e3/n):-1!=e.navigator.userAgent.indexOf("Chrome")?e.setInterval(function(){e.webkitRequestAnimationFrame(a)},1e3/n):e.setInterval(a,1e3/n)}function t(){$("#draw_time").html(s++),s>30&&stopAnim()}function a(){u.clearRect(0,0,m.width,m.height),u.drawImage(c,i,r),i+=1*l,r+=1*o,i>=m.width-188?(i=m.width-188,l=-1):0>=i&&(i=0,l=1),r>=m.height-48?(r=m.height-48,o=-1):0>=r&&(r=0,o=1),$("#draw_number").html(g++)}var i=0,r=0,l=1,o=1,c=new Image;c.src="images/image.png";var m=null,u=null,g=0,s=1,d=null,v=null;e.onload=n,stopAnim=function(){e.clearInterval(v),e.clearInterval(d)},$("#canvas").click(function(){l=1==l?-1:1,o=1==o?-1:1})}(window);
+
